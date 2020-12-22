@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(
+        rgba(8, 8, 8, 0),
+        rgba(255, 255, 255, 0.1)
+      ),
+      url(./images/B22.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 20cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 3cm;
+    font-size: 4rem;
+}
+.big-text{
+    font-size: 4rem;
+    line-height: 3;
+    margin: 0 2rem;
+    font-weight: 600;
+}
+span{
+    margin-left: 18px;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
